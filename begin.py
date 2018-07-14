@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 data=pd.read_csv('iris.csv',names=['c1','c2','c3','c4','c5'])
-features=data[['c1','c2','c3','c4']]
+features=data[[['c1','c2','c3','c4']]]
 label=data['c5']
 
 a=np.asarray([1,0,0])
